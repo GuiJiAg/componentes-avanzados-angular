@@ -1,5 +1,7 @@
+import { Producto } from './../interfaces/producto';
+
 export class Tienda {
-  tiendaItems: object[];
+  tiendaItems: Producto[];
 
   constructor() {
     this.tiendaItems = [
